@@ -63,5 +63,3 @@ build/
 *.ipr
 *~
 *.swp
-gradle/
-gradlew.bat
