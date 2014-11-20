@@ -64,5 +64,4 @@ build/
 *~
 *.swp
 gradle/
-gradlew
 gradlew.bat
