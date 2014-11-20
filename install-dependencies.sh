@@ -20,7 +20,8 @@ if [ ! -e $DEPS ]; then
   echo y | android update sdk --no-ui --filter "tools" &&
   echo y | android update sdk --no-ui --filter "extra-android-m2repository" &&
   echo y | android update sdk --no-ui --filter "extra-android-support" &&
-  echo y | android update sdk --no-ui --filter "extra-google-m2repositor" &&
+  echo y | android update sdk --no-ui --filter "extra-google-m2repository" &&
+  echo y | android update sdk -u -a -t addon-google_apis-google-19 &&
    
   touch $DEPS
 fi
