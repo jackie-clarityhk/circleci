@@ -7,6 +7,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.Robolectric;
 import org.robolectric.RobolectricTestRunner;
+import org.robolectric.annotation.Config;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertNotNull;
@@ -15,6 +16,7 @@ import static org.junit.Assert.assertThat;
 import com.clarityhk.goodcity.activities.IntroductionActivity;
 import com.clarityhk.goodcity.R;
 
+@Config(emulateSdk = 18)
 @RunWith(RobolectricTestRunner.class)
 public class IntroductionActivityTest {
 
