@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main colors -->
+    <color name="goodcity_red_dark">#af3e49</color>
+    <color name="goodcity_red_medium">#f34d4f</color>
+    <color name="goodcity_red_light">#f46769</color>
+
+    <color name="goodcity_blue_dark">#002352</color>
+    <color name="goodcity_blue_medium">#a3aab6</color>
+    <color name="goodcity_blue_light">#dfe5ec</color>
+
+    <color name="goodcity_grey">#363636</color>
+
+    <color name="goodcity_white_pure">#ffffff</color>
+
+    <!-- Button -->
+    <color name="button_background">@color/goodcity_red_medium</color>
+    <color name="button_background_disabled">@color/goodcity_red_light</color>
+    <color name="button_background_pressed">@color/goodcity_red_dark</color>
+
+    <!-- Text -->
+    <color name="text_body">@color/goodcity_blue_medium</color>
+    <color name="text_header_primary">@color/goodcity_white_pure</color>
+    <color name="text_header_secondary">@color/goodcity_grey</color>
+    <color name="text_link">@color/goodcity_red_medium</color>
+
+</resources>
