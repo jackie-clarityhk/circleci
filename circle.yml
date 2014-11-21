@@ -9,4 +9,4 @@ dependencies:
     
 test:
   override:
-    - ./gradlew build
+    - ./gradlew clean test
