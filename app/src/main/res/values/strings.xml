@@ -2,7 +2,9 @@
 <resources>
 
     <string name="app_name">goodcity-android</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Introduction Activity -->
+    <string name="introduction_activity_title">GoodCity.HK</string>
 
 </resources>

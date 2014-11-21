@@ -1,4 +1,4 @@
-package com.clarityhk.goodcity;
+package com.clarityhk.goodcity.test;
 
 import junit.framework.Assert;
 
